@@ -8,9 +8,17 @@
     ],
     "routes": [
       {
-        "src": "/(.*)",
-        "dest": "/"
-      }
+      "src": "/register",
+      "dest": "./index.js"
+    },
+    {
+      "src": "/login",
+      "dest": "./index.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "./index.js"
+    }
     ]
   }
   
