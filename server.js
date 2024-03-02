@@ -30,6 +30,9 @@ app.post('/register', function(req, res) {
         res.status(500).send({ message: 'Error registering user' });
     }
 });
+app.get('/',function(req,res){
+    res.send("i got / it's ok!")
+})
 // app.post('/login', function(req, res) {
 //     try {
 //         const { username, password } = req.body;
