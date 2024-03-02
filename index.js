@@ -44,7 +44,7 @@ registerbtn.addEventListener('click', () => {
         password: password
     };
 
-    fetch('https://form-with-backend-oj7m.vercel.app/', {
+    fetch('/register', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
