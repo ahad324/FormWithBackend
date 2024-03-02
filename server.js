@@ -33,6 +33,12 @@ app.post('/register', function(req, res) {
 app.get('/',function(req,res){
     res.send("i got / it's ok!")
 })
+app.get('/register',function(req,res){
+    res.send("i got /register it's ok!")
+})
+app.get('/login',function(req,res){
+    res.send("i got /login it's ok!")
+})
 // app.post('/login', function(req, res) {
 //     try {
 //         const { username, password } = req.body;
